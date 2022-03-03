@@ -21,15 +21,51 @@ body {
 }
 
 .foto_perfil {
+  margin-top: 15px;
   width: 300;
   height: 300px;
 }
 .picture {
   width: 100%;
   height: 100%;
+
+  border-radius: 15px;
 }
 
 .sobre {
   color: aliceblue;
   font-size: 2rem;
+}
+
+.sobre h1 {
+  color: #0a192f;
+  -webkit-text-stroke: 0.05rem #ccd6f6;
+  position: relative;
+  white-space: nowrap;
+}
+
+.sobre h1::before {
+  content: attr(data-text);
+  position: absolute;
+  
+  width: 0;
+  height: 100%;
+  color: #ccd6f6;
+  -webkit-text-stroke: 0vw #ccd6f6;
+  border-right: 2px solid #ccd6f6;
+  overflow: hidden;
+  animation: animate 5s linear infinite;
+}
+
+@keyframes animate {
+  0%,
+  10%,
+  100% {
+    width: 0;
+  }
+
+  70%,
+  90% {
+    width: 100%;
+  }
 }
