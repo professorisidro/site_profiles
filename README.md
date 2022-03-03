@@ -19,3 +19,5 @@ Cada dev trabalha sempre na branch develop
      2. Fazer as suas tarefas
      3. Fazer o PUSH para o SEU repo (da SUA conta)
      4. Abrir um Pull Request solicitando que o Tem Leader avalie se código e incorpore suas alterações na branch develop
+
+Testando o push
