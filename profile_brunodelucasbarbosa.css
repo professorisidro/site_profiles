@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  margin-right: 25vw;
+  margin-left: 25vw;
+
+  background-color: #8B0001;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+
+  background-color: peru;
+  padding: 25px;
+}
+
+.header__title {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+}
