@@ -5,6 +5,11 @@
 }
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     padding: 3rem;
 }
 
@@ -21,8 +26,8 @@ body {
 .imagem-perfil {
     display: flex;
 
-    width: 11rem;
-    height: 17rem;
+    width: 20rem;
+    height: 29rem;
 
-    border-radius: 3.5rem;
+    border-radius: 1.5rem;
 }
