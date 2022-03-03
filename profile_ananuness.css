@@ -1,0 +1,45 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+img {
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 10px solid rgba(82, 81, 81, 0.247);
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1, p, span {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  margin: 30px 0 0 0;
+  color: crimson;
+}
+
+span {
+  color:rgba(0, 0, 0, 0.473);
+}
+
+a {
+  text-decoration: none;
+  color:rgb(52, 124, 219);
+}
