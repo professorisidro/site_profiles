@@ -1,15 +1,16 @@
-html {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
 body {
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
+  padding: 20px;
 }
 
 img {
@@ -27,12 +28,18 @@ section {
 }
 
 h1, p, span {
+  cursor: default;
   font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-  margin: 30px 0 0 0;
+  margin: 30px 0 20px 0;
   color: crimson;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 5px;
 }
 
 span {
