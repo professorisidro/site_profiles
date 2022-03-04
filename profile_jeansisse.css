@@ -32,19 +32,19 @@ body {
   border-radius: 15px;
 }
 
-.sobre {
+.nome {
   color: aliceblue;
   font-size: 2rem;
 }
 
-.sobre h1 {
+.nome h1 {
   color: #0a192f;
   -webkit-text-stroke: 0.05rem #ccd6f6;
   position: relative;
   white-space: nowrap;
 }
 
-.sobre h1::before {
+.nome h1::before {
   content: attr(data-text);
   position: absolute;
   
@@ -68,4 +68,9 @@ body {
   90% {
     width: 100%;
   }
+}
+
+.mensagem {
+  font-size: 1.9rem;
+  color: #64ffda;
 }
