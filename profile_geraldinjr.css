@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 75px;
+    justify-content: center;
+    align-items: center;
+    background-color: darkgray;
+}
+
+.foto {
+    width: 360px;
+}
+
+p {
+    font-family: 'Public Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #100c3b;
+    width: 60%;
+}
+
+h2 {
+    color: #100c3b;
+}
